@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css1/style.css">
+  <title>Frontend Mentor | Product preview card component</title>
+
+</head>
+<body>
+  <div class="details">
+  <img class="perfum" src="images/image-product-mobile.jpg" alt = "perfume-img">
+  <h2> PERFUME </h2>
+  <h1> Gabrielle </h1>
+  <h1> Essence Eau </h1>
+  <h1> De Parfum </h1>
+
+  <p class="intro"> A floral, solar and voluptuous interpretation composed by Olivier Polge,
+  Perfumer-Creator for the House of CHANEL. </p>
+  <p class="now"> <strong>$149.99</strong> <del class="crossed"> $169.99 </del> </p>
+
+  <p class="btn"> <img src="images/icon-cart.svg" alt="cart"> Add to Cart </p>
+
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="Chabu13">Chabu</a>.
+  </div>
+</body>
+</html>
